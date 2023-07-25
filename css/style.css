@@ -1,0 +1,139 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}.left_back{
+     background-image: url(../img/halie.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 40%;
+     float: left;
+     height: 100vh;
+     text-align: center;
+     justify-content: center;
+}
+.left_back1 img{
+     width: 50px;
+     height: auto;
+} 
+.left_back1{
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     display: inline-flex;
+     color: white;
+     font-size: 35px;
+     margin-top: 10rem;
+     background-color: rgba(0, 0, 0, 0.466);
+     width: 100%;
+}
+.left_back2{
+     color: white;
+     margin-top: 60vh;
+     bottom: 0;
+}
+.left_back2 p{
+     text-align: center;
+}
+.left_back2 a{
+     text-decoration: underline;
+     color: white;
+}
+.left_back2 a:hover{
+     color: rgb(168, 168, 168);
+}
+.right_back{
+     float: right;
+     width: 60%;
+}
+.right_back1{
+     background-color: rgba(128, 128, 128, 0.185);
+     width: 100%;
+     padding: 15px;
+}
+.midsec{
+     padding: 15px;
+     width: 100%;
+}
+.wright{
+     font-weight: bolder;
+     font-size: 15px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+     position: relative;
+     height: 60px;
+     width: 50%;
+     margin: 0 0;
+     float: left;
+     font-size: small;
+ }
+ .wrapper1{
+     position: relative;
+     height: 60px;
+     width: 50%;
+     margin: 0 0;
+     float: right;
+     font-size: small;
+}
+.wrapper input,
+.wrapper1 input{
+     height: 50%;
+     width: 98%;
+     border-radius: 6px;
+    border: 2px solid #a6a6a6;
+    padding: 5px;
+}
+.wrapper input:focus,
+.wrapper input:active,
+.wrapper1 input:focus,
+.wrapper1 input:active{
+     border: 2px solid rgb(30, 30, 144);
+     box-shadow: 0 0 4px rgba(14, 3, 168, 0.5);
+     outline: none;
+}
+.midsec{
+     font-family: Arial, Helvetica, sans-serif;
+     border-bottom: 1px solid transparent;
+     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.midsec p{
+     font-size: 18px;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.lastsec{
+     padding: 15px;
+     width: 100%;
+}
+button{
+     background-color: rgb(37, 105, 37);
+     color: white;
+     padding: 7px 14px;
+     border: 1px solid transparent;
+     border-radius: 11px;
+}
+button:hover{
+     background-color: rgb(0, 131, 0);
+     color: white;
+     padding: 7px 14px;
+     border: 1px solid transparent;
+     border-radius: 11px;
+}
+.lastsec a{
+     text-decoration: none;
+     color: rgb(37, 105, 37);
+}
+.lastsec a:hover{
+     text-decoration: none;
+     color: rgb(0, 131, 0);
+}
+@media screen and ( max-width : 768px) {
+     .wrapper,
+     .wrapper1{
+          float: none;
+        width: 100%;
+        margin: 0 0 2%;
+     }
+}
